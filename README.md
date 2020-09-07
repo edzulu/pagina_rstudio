@@ -1,5 +1,4 @@
-# pagina_rstudio
-criando uma página para o rstudio
+
 
 ## D.I.C. - Delineamaneto Inteiramente ao acaso
 
