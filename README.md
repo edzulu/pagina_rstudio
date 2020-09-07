@@ -4,7 +4,7 @@ criando uma página para o rstudio
 ## D.I.C. - Delineamaneto Inteiramente ao acaso
 
 
-Grau de liberdade de tratamento é dado pela fórmula $$G.L._{trat}=k-1$$.
+Grau de liberdade de tratamento é dado pela fórmula $G.L._{trat}=k-1$.
 
 O grau de liberdade total por $$G.L._{total}=k.r-1$$;
 
