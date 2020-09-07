@@ -1,0 +1,14 @@
+
+## O valor-p
+
+Um procedimento de teste equivalente usa a probabilidade de  significância $(valor-p)$, a qual é calculada pela maioria dos programas estatísticos.
+
+**Note que se o valor-p for menor que $\alpha$, rejeitamos $H0$**.
+
+
+## Exemplo 1
+
+Um experimento foi realizado para avaliar o efeito da temperatura sobre a densidade de tijolos. Para isso foram utilizadas 20 lotes de tijolos submetido as temperatura de 100, 125, 150 e 175 ºC. Para cada lote foi obtido a densidade média
+
+![](anova3.png)
+
