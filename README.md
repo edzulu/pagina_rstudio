@@ -1,23 +1,14 @@
 
+## Tabela de ANOVA
 
-## D.I.C. - Delineamaneto Inteiramente ao acaso
+Agora podemos montar a tabela de ANOVA com os valores encontrados.
 
-
-Grau de liberdade de tratamento é dado pela fórmula $G.L._{trat}=k-1$.
-
-O grau de liberdade total por $$G.L._{total}=k.r-1$$;
-
-e grau de liberdade dos resíduos por $$G.L._{residuo}=k.(r-1)$$.
-
-onde $k$ representa os tratamentos e $r$ as repetições.
+![](anova2.png)
 
 
-Soma de Quadrados
+Para se testar as hipóteses é utilizada a estatística F, com $(k-1)$ graus de liberdade no numerador e $k.(r-1)$ graus de liberdade no denominador.
 
-$$SQ_{Total}= \sum_{i=1}^I \sum_{j=1}^r x_{ij}^2 - C$$
 
-Onde C é o fator de correção $$FC=C=\frac{( \sum_{i=1}^I  \sum_{j=1}^r  x_{ij})^2}{n}$$
+Se $F_{calculado} > F_{tabelado}$, rejeita-se $H0$ e conclui-se que existe pelo menos uma média que difere de outra.
 
-Soma de quadrados dos tratamentos
 
-$$SQ_{trat}=\frac{\sum_{j=1}^r T_j^2}{r} - C$$
