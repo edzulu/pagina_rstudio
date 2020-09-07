@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/edzulu/pagina_rstudio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## D.I.C. - Delineamaneto Inteiramente ao acaso
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+Grau de liberdade de tratamento é dado pela fórmula $$G.L._{trat}=k-1$$.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+O grau de liberdade total por $$G.L._{total}=k.r-1$$;
 
-```markdown
-Syntax highlighted code block
+e grau de liberdade dos resíduos por $$G.L._{residuo}=k.(r-1)$$.
 
-# Header 1
-## Header 2
-### Header 3
+onde $k$ representa os tratamentos e $r$ as repetições.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+Soma de Quadrados
 
-**Bold** and _Italic_ and `Code` text
+$$SQ_{Total}= \sum_{i=1}^I \sum_{j=1}^r x_{ij}^2 - C$$
 
-[Link](url) and ![Image](src)
-```
+Onde C é o fator de correção $$FC=C=\frac{( \sum_{i=1}^I  \sum_{j=1}^r  x_{ij})^2}{n}$$
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Soma de quadrados dos tratamentos
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edzulu/pagina_rstudio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+$$SQ_{trat}=\frac{\sum_{j=1}^r T_j^2}{r} - C$$
